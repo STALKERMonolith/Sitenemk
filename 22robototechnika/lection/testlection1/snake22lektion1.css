@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000D20;
+    color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.iconexit {
+    font-size: 2rem; 
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 3rem;
+}
+
+.icon2 {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 3rem;
+}
+
+.k1 {
+    font-family: 'Unbounded', sans-serif; 
+    width: 400px;
+    height: 100px;
+    border: 3px solid #FC434E;
+    margin-right: 26.5%;
+    color: #FC434E;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.k2 {
+    font-family: 'Unbounded', sans-serif; 
+    width: 400px;
+    height: 100px;
+    border: 3px solid #FFD874;
+    margin-right: -27%;
+    margin-top: -6.5%;
+    color: #FFD874;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.k3{
+    font-family: 'Unbounded', sans-serif; 
+    width:500px;
+    height:100px;
+    margin-right: 0%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+}
+
+.iconA {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 3rem;
+}
+
+.top-right { 
+    display: flex;
+    align-items: center;
+}
+
+.chat-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.baz {
+      font-family: 'Unbounded', sans-serif; 
+    color: #FFD874;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+** {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#snake-field {
+	background: #000D20;
+    border:1px solid #6eaed6;
+}
+
+#snake-start, #snake-renew {
+    font-size: 20px;
+	width: 150px;
+	padding: 15px;
+	color: white;
+	background: #2b5689;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin: 10px;
+}
+
+.game-table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td.game-table-cell {
+    font-family: 'Unbounded', sans-serif;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000D20 ;
+	border-collapse: collapse;
+}
+
+.snake-unit {
+	background: white; 
+}
+
+.yellow-food-unit {
+	background: #FFD874;
+}
+
+.red-food-unit {
+	background: #FC434E; 
+}
+
+#score {
+	color: #FC434E;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 5px;
+	text-align: center;
+	background: #fff;
+}
+
+table {
+	border-color: dimgray;
+}
+
+#buttons {
+	display: flex;
+	justify-content: center;
+}
+
+#snake-field {
+	width: auto; 
+    height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логін</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <img class="iconexit" src="../image/Chi1.svg" alt="Exit"/>
+
+    <div class="login-container">
+        <h1>ЛОГІН</h1>
+        <form id="loginForm">
+            <div class="input-container">
+                <input type="text" id="username" name="username" required>
+                <label for="username">юзер користувача</label>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" name="password" required>
+                <label for="password">пароль</label>
+            </div>
+            <button type="submit">Увійти</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Зупиняємо стандартне відправлення форми
+
+    // Отримуємо значення полів
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Простий приклад перевірки (можна додати свою логіку)
+    if (username && password) {
+        // Якщо логін і пароль введені — перенаправляємо на головну сторінку
+        window.location.href = '../index.html';
+    } else {
+        alert('Будь ласка, введіть логін та пароль');
+    }
+});
+    </script>
+</body>
+</html>

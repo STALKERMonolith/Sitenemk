@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000D20;
+    color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.iconexit {
+    font-size: 2rem; 
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 3rem;
+}
+
+.icon2 {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 3rem;
+}
+
+.icon {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+}
+
+.iconA {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 3rem;
+}
+
+.top-right { 
+    display: flex;
+    align-items: center;
+}
+
+.chat-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.baz {
+    font-family: 'Unbounded', sans-serif; 
+    color: #FFD874;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.pred {
+    background-color: #FFD874; 
+    color: #0D1A2D;
+    padding: 20px 40px; 
+    border-radius: 50px; 
+    font-size: 30px; 
+    font-family: 'Unbounded', sans-serif; 
+    font-weight: bold; 
+    text-align: center; 
+    display: inline-block; 
+    width: 500px; 
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.16); 
+}
+
+.teacher {
+    font-family: 'Unbounded', sans-serif; 
+    color: #FFD874;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.l1 {  
+    font-family: 'Unbounded', sans-serif; 
+    background-color: #6EAEDA;
+    position: fixed;
+    border-radius: 5px;
+    height: 36%;
+    width: 6%;
+    font-size: larger;
+    margin-right: 40%;
+    margin-top: 15%;
+    font-size: 25px; 
+    letter-spacing: 1PX;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.l2 {  
+    font-family: 'Unbounded', sans-serif; 
+    background-color: #6EAEDA;
+    position: fixed;
+    border-radius: 5px;
+    height: 36%;
+    width: 6%;
+    font-size: larger;
+    margin-right: 25%;
+    margin-top: 15%;
+    font-size: 25px; 
+    letter-spacing: 1PX;
+    writing-mode: vertical-lr;
+    text-orientation: upright; 
+}
+
+.l3 {  
+    font-family: 'Unbounded', sans-serif; 
+    background-color: #6EAEDA;
+    position: fixed;
+    border-radius: 5px;
+    height: 36%;
+    width: 6%;
+    font-size: larger;
+    margin-right: 10%;
+    margin-top: 15%;
+    font-size: 25px; 
+    letter-spacing: 1PX;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.kon1 {  
+    font-family: 'Unbounded', sans-serif; 
+    background-color: #FC434E;
+    position: fixed;
+    border-radius: 5px;
+    height: 36%;
+    width: 6%;
+    font-size: larger;
+    margin-right: -5%;
+    margin-top: 15%;
+    font-size: 21px; 
+    letter-spacing: 1PX;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+
+.cen {
+    position: fixed;
+    width: 80%;
+    height: 5%;
+    background: #2B5689;
+    z-index: 1;
+    margin-top: 34%; 
+}
+
+.Back{  
+    font-family: 'Unbounded', sans-serif;
+    background-color: #FFD874;
+    position: fixed;
+    border-radius: 50px;
+    height: 10%;
+    width: 15%;
+    font-size: larger;
+    margin-right: 0%;
+    margin-top: 40%;
+    font-size: 22px; 
+}
+

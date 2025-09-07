@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000D20;
+    color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.iconexit {
+    font-size: 2rem; 
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 3rem;
+}
+
+.icon2 {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 3rem;
+}
+
+.icon {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+}
+
+.iconA {
+    font-size: 2rem; 
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 3rem;
+}
+
+.top-right { 
+    display: flex;
+    align-items: center;
+}
+
+.chat-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.baz {
+    font-family: Unbounded;
+    color: #FFD874;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+.kor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000D20;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    flex-direction: column; 
+}
+
+.lin {
+    position: fixed;
+    width: 70%;
+    height: 15%;
+    background: #C9D7E4;
+    margin-top: -5%;
+}
+
+.cen {
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    background: #C9D7E4;
+    z-index: 1;
+    margin-top: -5%; 
+}
+
+.dow {
+    position: fixed;
+    width: 8%;
+    height: 40%;
+    background: #C9D7E4;
+    z-index: 1;
+    margin-top: 15%; 
+}
+
+.Serverna {
+    font-family: 'Unbounded', sans-serif;
+    background-color: #FFD874;
+    position: fixed;
+    border-radius: 5px;
+    height: 15%;
+    width: 15%;
+    font-size: larger;
+    margin-bottom: 20%;
+    margin-top: -10%;
+    font-size: 30px; 
+}
+
+
+
+.k22{  
+    font-family: 'Unbounded', sans-serif;
+    background-color: #FFD874;
+    position: fixed;
+    border-radius: 5px;
+    height: 15%;
+    width: 10%;
+    font-size: larger;
+    margin-right: -81%;
+    margin-top: -5%;
+    font-size: 22px; 
+}
+
+.k21{
+    font-family: 'Unbounded', sans-serif;
+    background-color: #FFD874;
+    position: fixed;
+    border-radius: 5px;
+    height: 15%;
+    width: 15%;
+    font-size: larger;
+    margin-right: -50%;
+    margin-top: 12%;
+    font-size: 22px; 
+}
+
+.k20{
+    font-family: 'Unbounded', sans-serif;
+    background-color: #FFD874;
+    position: fixed;
+    border-radius: 5px;
+    height: 13%;
+    width: 8%;
+    font-size: larger;
+    margin-right: -59%;
+    margin-top: -20%;
+    font-size: 22px; 
+}
+
+.k19{
+    font-family: 'Unbounded', sans-serif;
+    background-color: #2B5689;
+    position: fixed;
+    border-radius: 5px;
+    height: 13%;
+    width: 8%;
+    font-size: larger;
+    margin-right: -39%;
+    margin-top: -20%;
+    font-size: 22px; 
+}
+
+.k18{
+    font-family: 'Unbounded', sans-serif;
+    background-color: #2B5689;
+    position: fixed;
+    border-radius: 5px;
+    height: 15%;
+    width: 7%;
+    font-size: larger;
+    margin-right: 40%;
+    margin-top: -21%;
+    font-size: 22px; 
+}
+.k16{
+    font-family: 'Unbounded', sans-serif;
+    background-color: #2B5689;
+    position: fixed;
+    border-radius: 5px;
+    height: 13%;
+    width: 8%;
+    font-size: larger;
+    margin-right: 60%;
+    margin-top: -20%;
+    font-size: 22px; 
+}
+
+.k15 {
+    font-family: 'Unbounded', sans-serif;
+    background-color: #2B5689;
+    position: fixed;
+    border-radius: 5px;
+    height: 13%;
+    width: 8%;
+    font-size: 22px; 
+    margin-right: 55%;
+    margin-top: 10%;
+}
+
+
